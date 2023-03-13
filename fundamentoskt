@@ -1,1 +1,41 @@
 
+
+fun main() {
+    // concatenação
+    // 
+    /*
+   var bolinha = "Michel Havckson"
+    
+    println("o nome da bolinha do kilyan mbappé é $bolinha")
+    println("o nome da bolinha do kilyan mbappé é" + bolinha)
+    
+    var leclerc = 2
+    var alonso = 1
+    
+    
+    println("a posição do lek lek + a posição do alonso são ${(leclerc + alonso)}")
+    
+    println("a posição do lek lek + a posição do alonso são" +  (leclerc + alonso))
+    
+    
+    var nome = "Laura"
+    var idade = 14
+    var cidade = "São Paulo"
+    
+    println("o meu nome é $nome, eu tenho $idade anos e moro em $cidade")
+    */
+    //Exercício - faça um diálogo de 15 linha, nele deve conter,
+    //os nomes de quem estão falando de forma concatenada usando variaveis
+    //use a criatividade 
+    //
+    var nome =  "lean"
+    var nome2 = " laura"
+    var idade = 21
+    var cidade = "Boston"
+    
+    println("Em um belo dia chuvoso,")
+    
+    
+
+} 
+//--------------------------------------------------------------------------------
