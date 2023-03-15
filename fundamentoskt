@@ -39,3 +39,57 @@ fun main() {
 
 } 
 //--------------------------------------------------------------------------------
+fun main() {
+    // concatenação
+    // 
+    /*
+   var bolinha = "Michel Havckson"
+    
+    println("o nome da bolinha do kilyan mbappé é $bolinha")
+    println("o nome da bolinha do kilyan mbappé é" + bolinha)
+    
+    var leclerc = 2
+    var alonso = 1
+    
+    
+    println("a posição do lek lek + a posição do alonso são ${(leclerc + alonso)}")
+    
+    println("a posição do lek lek + a posição do alonso são" +  (leclerc + alonso))
+    
+    
+    var nome = "Laura"
+    var idade = 14
+    var cidade = "São Paulo"
+    
+    println("o meu nome é $nome, eu tenho $idade anos e moro em $cidade")
+    */
+    //Exercício - faça um diálogo de 15 linha, nele deve conter,
+    //os nomes de quem estão falando de forma concatenada usando variaveis
+    //use a criatividade 
+    //
+    var nome =  "bruna"
+    var nome2 = "laura"
+    
+   
+    
+    println("$nome - bom dia amg")
+    println("$nome2 - bom diia")
+    println("$nome - tudo bem?")
+    println("$nome2 - ta td bem sim e cntg?")
+    println("$nome - to beem, vc fez o trabalho de português?")
+    println("$nome2 - fiz nada fia")
+    println("$nome - mas vc ta qrd fzr ou n?")
+    println("$nome2 - qrr mesmo eu n qro, vc vai fzr?")
+    println("$nome - yes baby, mas nao vou fzr agr, qnd eu chegar em casa e faço ")
+    println("$nome2 - ah ent qnd vc chegar me avisa q eu vou na sua casa e a gnt faz jnt")
+    println("$nome - ta boom, aproveita p dormir aq")
+    println("$nome2 - vou ver se dá e te aviso")
+    println("$nome - ta boom, to indo p casa")
+    println("$nome2 - tchaau até mais tarde")
+    println("$nome - tchaau, até")
+    
+            
+    
+ 
+
+}
