@@ -93,3 +93,75 @@ fun main() {
  
 
 }
+//------------------------------------------------------------------------------------------------------------------------------------------------
+fun main() {
+    
+
+ //operadores matemáticos
+ 
+ // + -> adição
+ // - -> subtração
+ // / -> divisão
+ // * -> multiplicação
+ // % -> módulo
+ /*
+ var halls = 7
+ var freegells = 6
+
+ println (halls / freegells)
+
+ 
+ 
+ // EXERCÍCIO - faça uma calculadora que contenha cada um dos operadores matemáticos 
+ // como resutado do calculo de duas variaveis (contendo resultado para +, -, /, * e %)
+ //contendo também uma interface simples e bem bonita:)
+ */
+  
+  var Luiz = 50
+  var Leo = 30
+  var Eduardo = 10
+  var larissa = 80
+  var Valeria = 8
+  
+  
+    
+  println("alguns alunos estavam em prova para passar de serie pois estavam de recuperação, eles tiham")
+  println("que resolver o seguinte cálculo:Luis mais Leo é igual Larissa,Larissa dividido por Eduardo é igual à")
+  println("Valeria e Leo multiplicado por Leo é igual à:")
+  println(" a) 140")
+  println(" b) 240")
+  println(" c) 320")
+  println(" d) 425")
+
+
+
+
+
+
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+}
