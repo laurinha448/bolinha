@@ -134,6 +134,128 @@ fun main() {
   println(" d) 425")
 
 
+//--------------------------------------------------------------------------------------------------------------------
+fun main() {
+    
+
+ //operadores matemáticos
+ 
+ // + -> adição
+ // - -> subtração
+ // / -> divisão
+ // * -> multiplicação
+ // % -> módulo
+ /*
+ var halls = 7
+ var freegells = 6
+
+ println (halls / freegells)
+
+ 
+ 
+ // EXERCÍCIO - faça uma calculadora que contenha cada um dos operadores matemáticos 
+ // como resutado do calculo de duas variaveis (contendo resultado para +, -, /, * e %)
+ //contendo também uma interface simples e bem bonita:)
+ */
+  /*
+  var Luiz = 50
+  var Leo = 30
+  var Eduardo = 10
+  var larissa = 80
+  var Valeria = 8
+  
+  
+    
+  println("alguns alunos estavam em prova para passar de serie") 
+  println("pois estavam de recuperação, eles tiham")
+  println("que resolver o seguinte cálculo:")
+  println("Luis mais Leo é igual Larissa,Larissa dividido por Eduardo é igual à")
+  println("Valeria e Leo multiplicado por Leo é igual à:")
+  println(" a) 140")
+  println(" b) 240")
+  println(" c) 320")
+  println(" d) 425")
+  */
+    
+    
+    
+   // Operadores Relacionais
+   //
+   // == -> igual a...
+   // != -> diferente dee...
+   // !  -> negando valor
+   // >  -> maior que...
+   // <  -> menor que...
+   // >= -> maior ou igual...
+   // <= -> menor ou igual a...
+   // 
+   // 
+   // ++  -> adiciona 1 a um valor
+   // --  -> subtrai 1 de um valor
+   // +=  -> adiciona um determinado valor de um valor
+   // -=  -> subtrai um determinado valor de um valor
+   
+   /*
+   var clauldetty = 50 
+   var josias = 30
+   var berennice = 90
+   var bernnadetthy = 80 
+   
+   println(clauldetty)
+   clauldetty++
+   println(clauldetty)
+   println(josias)
+   josias-- 
+   println(josias)
+   println("")
+   println(berennice)
+   berennice += clauldetty
+   println(berennice)
+   println("")
+   println(bernnadetthy)
+   bernnadetthy -= josias
+   println(bernnadetthy)
+   */
+    
+   // condições  if..else
+   
+   //se...senão
+   //
+   // estrutura:
+   // 
+   // if...else simples
+   // 
+   // if(condição){
+   // ação
+   // }else{
+   // ação
+   // }
+   /*
+   var interruptor = false 
+    
+   if(interruptor == true){
+       println("Luz acesa") 
+   }else{
+       println("Luz apagada")
+    
+   
+   }
+   */
+    
+    var fome = true
+    
+    if(fome){
+        println("alimente-se")
+    }else{
+        println("alimentou-se")
+
+    }
+        
+        
+}
+        
+        
+        
 
 
 
