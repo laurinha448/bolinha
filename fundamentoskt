@@ -1882,7 +1882,896 @@ fun main() {
      //}
      var contador = 0
      while(contador < 10){
+         println(contador++) 
+         
+         
+         
+         
+         /'''''''''''''''''''''''''''''''''''''''''
+         
+         
+         
+         
+         
+         fun main() {
+    
+
+ //operadores matemáticos
+ 
+ // + -> adição
+ // - -> subtração
+ // / -> divisão
+ // * -> multiplicação
+ // % -> módulo
+ /*
+ var halls = 7
+ var freegells = 6
+
+ println (halls / freegells)
+
+ 
+ 
+ // EXERCÍCIO - faça uma calculadora que contenha cada um dos operadores matemáticos 
+ // como resutado do calculo de duas variaveis (contendo resultado para +, -, /, * e %)
+ //contendo também uma interface simples e bem bonita:)
+ */
+  /*
+  var Luiz = 50
+  var Leo = 30
+  var Eduardo = 10
+  var larissa = 80
+  var Valeria = 8
+  
+  
+    
+  println("alguns alunos estavam em prova para passar de serie") 
+  println("pois estavam de recuperação, eles tiham")
+  println("que resolver o seguinte cálculo:")
+  println("Luis mais Leo é igual Larissa,Larissa dividido por Eduardo é igual à")
+  println("Valeria e Leo multiplicado por Leo é igual à:")
+  println(" a) 140")
+  println(" b) 240")
+  println(" c) 320")
+  println(" d) 425")
+  */
+    
+    
+    
+   // Operadores Relacionais
+   //
+   // == -> igual a...
+   // != -> diferente dee...
+   // !  -> negando valor
+   // >  -> maior que...
+   // <  -> menor que...
+   // >= -> maior ou igual...
+   // <= -> menor ou igual a...
+   // 
+   // 
+   // ++  -> adiciona 1 a um valor
+   // --  -> subtrai 1 de um valor
+   // +=  -> adiciona um determinado valor de um valor
+   // -=  -> subtrai um determinado valor de um valor
+   
+   /*
+   var clauldetty = 50 
+   var josias = 30
+   var berennice = 90
+   var bernnadetthy = 80 
+   
+   println(clauldetty)
+   clauldetty++
+   println(clauldetty)
+   println(josias)
+   josias-- 
+   println(josias)
+   println("")
+   println(berennice)
+   berennice += clauldetty
+   println(berennice)
+   println("")
+   println(bernnadetthy)
+   bernnadetthy -= josias
+   println(bernnadetthy)
+   */
+    
+   // condições  if..else
+   
+   //se...senão
+   //
+   // estrutura:
+   // 
+   // if...else simples
+   // 
+   // if(condição){
+   // ação
+   // }else{
+   // ação
+   // }
+   /*
+   var interruptor = false 
+    
+   if(interruptor == true){
+       println("Luz acesa") 
+   }else{
+       println("Luz apagada")
+    
+   
+   }
+   
+    
+    var fome = true
+    
+    if(fome){
+        println("alimente-se")
+    }else{
+        println("alimentou-se")
+
+    }
+        
+   */ 
+    /*
+    var senha = "98486" 
+    
+    if (senha == "azeitona"){ 
+        println("bem vindo sr stark") 
+    }else{ 
+        println("senha incorreta, tente novamente")
+    
+    }
+    
+    // SOCORRAM ME SUBI NO ONIBUS EM MARROCOS 
+    
+    // if..else composto
+    // 
+    // com o if..else composto, somos permitidos, comparar mais de duas condições (o simples e o else), 
+    // através do 'else if' 
+    // 
+    
+    var coracoes = 1
+    if (coracoes >= 5){ 
+        println("você esta muito saudável! parabéns")
+    }else if (coracoes == 4){
+        println("você ta de boa")
+    }else if (coracoes == 3){
+        println("cuidado com a sua saúde, durma melhor")
+    }else if (coracoes == 2){
+        println("vá se tratar, voce nao está bem...")
+    }else if (coracoes == 1){ 
+        println("estado crítico!!!!")
+    }else{
+        println("novo reforço do vasco")
+    }
+    */
+    
+    
+    // 1 - faça um programa usando duas variaveis que representem cada uma,um número.
+    // ele(programa) deve verificar qual dos dois é o maior número e  imprimi-lo no console
+    
+    
+    // 2 - faça um programa que verifique se o valor de uma variável é 
+    //maior, igual, ou menor que 0 (positivo ou negativo, ou nenhum dos dois)
+    //
+    /*
+   var pudim = 2
+      if (pudim >= 3){
+          println("parabéns, voce ainda tem pudim")
+      }else if(pudim == 2){
+          println("você está ficando sem pudim") 
+          
+      }else{
+          print("você está sem pudim")
+      }
+      
+      var cogumelo = 0 
+      if (cogumelo <=0){ 
+          println("você está sem cogumelo") 
+      }else if( cogumelo >= 0){
+          println("você tem muuito cogumelo") 
+          
+}
+       
+  */
+    
+    // operadores lógicos
+    // && -> e -> se todos as condições forem verdadeiras, o resultado será verdadeiro
+    // || -> ou -> se pelo menos uma condição for verdadeira, o resultado será verdadeiro
+    // 
+    // tabela verdade
+    // 
+    // &&
+    // VVV -> V 
+    // VVF -> F 
+    // FFF -> F
+    // FVF -> F
+    // FVV -> F
+    // VFV -> F
+    // 
+    // ||
+    // VV -> V
+    // VF -> V
+    // FV -> V 
+    // FF ->
+     
+    
+    
+    // na prática opeadores lógicos
+    // 
+    // minha mãe pediu para eu ir na loja de talheres e ela falou:
+    // traga uma colher, se tiver garfo e faca
+    // 
+    
+    /*
+    var garfo = true 
+    var faca = false
+    
+    println(garfo && faca) 
+    
+     
+    // show so péricles 
+    // pro cidadão menor de 18 entrar, ele precisa ter pelo menos 12 anos E 
+    // estar acompanhado dos pais 
+    
+     var idade = 15 
+     var comPais = false 
+     var comIdentidade = true
+         
+    if (idade >= 18){  
+        
+        if((idade >= 12 &&  comIdentidade == true) || comPais == true){
+            println("apoveite o show.. jovem!!") 
+        }else{
+            println("tu não pode entrar!")  
+        }   
+    }else{
+        println("aproveite o show!!")
+    }
+    
+        
+    //exercício ->  no MetroidVania, para o Hero ir para a tela de GameOver, 
+    //seu (corações precisam ser igual a zero) e 
+    //suas vidas precisam ser menor ou igual a zero 
+    
+    // simule com operadores lógicos quando ele vai para o GameOver
+    // e quando ele não vai 
+    
+    
+    var coracoes = 1
+    var vidas = false
+    
+     if(coracoes <= 0 || vidas == false){ 
+         println("game over")
+     }else{ 
+         println("o jogo continua") 
+     } 
+     */
+      
+    // when - quando
+    // 
+    // comparação de quando um valor for igual a um determinado valor,
+    // uma determinada ação será executada 
+    // 
+    // var auxiliar = valor 
+    // 
+    // when(auxiliar){  
+    // valor -> {ação} 
+    // valor -> {ação} 
+    // valor -> {ação} 
+    // valor -> {ação} 
+    // valor -> {ação} 
+    // else -> {açaõ} 
+    // } 
+    // será usado geralmente quando duranteo programa o valor da variável
+    // não for estático, ou seja, ele estiver mudando
+    //
+     /*
+    var mes = 5  
+    
+    
+     when(mes){ 
+         1 -> {println("Lisboa")}
+         2 -> {println("São Paulo")} 
+         3 -> {println("Rio de Janeiro")} 
+         4 -> {println("Nova York")} 
+         5 -> {println("Barcelona")} 
+         6 -> {println("Elmore")} 
+         7 -> {println("Miwaukee")} 
+         8 -> {println("Seoul")} 
+         9 -> {println("Japão")} 
+         10 -> {println("Toronto")} 
+         11 -> {println("Los Polos Hermanos")} 
+         12 -> {println("Springfield")} 
+         else -> {println("acordou")}
+     
+     
+     
+     
+        //exercício -> escreva um programa em Kotlin que declare uma variável chamada 
+        //"diaSemana" do tipo String, que represente um dia de semana. Em seguida, utilize a declaração
+        //"when" para exibir uma mensagem na tela informando se o dia da semana é 
+        //um dia util ou um final de semana. 
+        //
+        //
+        
+         
+        
+        var diaSemana = ""
+    
+          when(diaSemana){ 
+              "segunda"-> {println("segunda")}
+              "terça"-> {println("terça")} 
+              "quarta"-> {println("quarta")} 
+              "quinta"-> {println("quinta")} 
+              "sexta"-> {println("sexta")} 
+             
+              else ->{println("final de semana, aproveite")}
+          
+              
+          }
+     
+     
+       // laços de repetição - Loops 
+       // 
+       // repeat - repita
+       // while - enquanto
+       // do..while - faça..enquanto
+       // for - para
+       // 
+       // repeat - repita
+       // vai repetir ma determinada ação uma determinada quantidade de vezes
+       //  
+       // estrutura do repeat
+       //   
+       // repeat(númeroVezes){ 
+       // ação
+       // }
+       // 
+       repeat(8){ 
+           println("isso é um teste, testando, testando")
+      
+       }
+       
+       
+       // exercício -> faça um programa com auxílio de uma variavel contador,
+       // na qual nela será acrescentado 1 a cada repetição,
+       // até que dê a quantidade de vezes decidida
+       
+       
+       var contador = 5 
+       var repetir = 0
+      	repeat(contador){
+           repetir++ 
+            println("Contador $repetir")
+        
+       
+        var contador = 0
+        repeat(10){
+            println(contador++)
+       
+       
+     */
+     
+     //laço while - enquanto 
+     //
+     //enquanto uma condiçãofor verdadeira, uma determinada ação estará sendo executada
+     //estrutura do while
+     //
+     //while(condição){
+     //ação
+     //}
+     /*
+     var contador = 0
+     while(contador < 10){
          println(contador++)
+     } 
+     */
+     //exercício -> simulador de bateria de celular
+     //faça um programa com while que motre s bateria 100% diminuindo.
+     //quando ela chegar no 15, deve mostrar a mensagem pedindo para 
+     //conectar o carregador, e quando chegar a 0, deve mostrar a mensagem
+     //aparelho desligado
+          
+     /*     
+     var bateria = 100 
+    
+     while(bateria > 0){
+         println("$bateria%")
+          
+          
+          when(bateria){
+              15-> {println("aparelho descarregado, conecte no carregador")}
+              0 ->{println("aparelho desligando!")}
+     }
+       bateria--  
+          
+     }
+       */   
+      //uma determinada ação será executada, ENQUANTO uma determinada condição for 
+      //verdadeira 
+      
+      //estrutura:
+      //
+      //do{
+      //ação
+      //}while(condição) 
+      //
+      /*
+      var contador =9
+      
+      do{
+         println(contador++)
+      }while(contador > 10)
+       */ 
+      
+      //for - para...
+      //
+      //PARA cada item em um intervalo ou colection, uma determinada ação será executada 
+      //estrutura:
+      //
+      //for(vAuxiliar in intervalo ou colection)
+      //ação
+      //}
+      //
+      
+      for(pneu in 1..4){
+          println("1 pneu")
+      }
+      for(contador in 0..3){
+          println(contador + 1)
+         
+      }
+     
+     //exercício -> faça uma tabuada até o décimo multiplo de um número escolhido, 
+     //utilizando o laço for
+     //em excessão as tabuadas do 0, 1 e 2
+        
+        
+        
+}
+         
+         
+     
+     
+    fun main() {
+    
+
+ //operadores matemáticos
+ 
+ // + -> adição
+ // - -> subtração
+ // / -> divisão
+ // * -> multiplicação
+ // % -> módulo
+ /*
+ var halls = 7
+ var freegells = 6
+
+ println (halls / freegells)
+
+ 
+ 
+ // EXERCÍCIO - faça uma calculadora que contenha cada um dos operadores matemáticos 
+ // como resutado do calculo de duas variaveis (contendo resultado para +, -, /, * e %)
+ //contendo também uma interface simples e bem bonita:)
+ */
+  /*
+  var Luiz = 50
+  var Leo = 30
+  var Eduardo = 10
+  var larissa = 80
+  var Valeria = 8
+  
+  
+    
+  println("alguns alunos estavam em prova para passar de serie") 
+  println("pois estavam de recuperação, eles tiham")
+  println("que resolver o seguinte cálculo:")
+  println("Luis mais Leo é igual Larissa,Larissa dividido por Eduardo é igual à")
+  println("Valeria e Leo multiplicado por Leo é igual à:")
+  println(" a) 140")
+  println(" b) 240")
+  println(" c) 320")
+  println(" d) 425")
+  */
+    
+    
+    
+   // Operadores Relacionais
+   //
+   // == -> igual a...
+   // != -> diferente dee...
+   // !  -> negando valor
+   // >  -> maior que...
+   // <  -> menor que...
+   // >= -> maior ou igual...
+   // <= -> menor ou igual a...
+   // 
+   // 
+   // ++  -> adiciona 1 a um valor
+   // --  -> subtrai 1 de um valor
+   // +=  -> adiciona um determinado valor de um valor
+   // -=  -> subtrai um determinado valor de um valor
+   
+   /*
+   var clauldetty = 50 
+   var josias = 30
+   var berennice = 90
+   var bernnadetthy = 80 
+   
+   println(clauldetty)
+   clauldetty++
+   println(clauldetty)
+   println(josias)
+   josias-- 
+   println(josias)
+   println("")
+   println(berennice)
+   berennice += clauldetty
+   println(berennice)
+   println("")
+   println(bernnadetthy)
+   bernnadetthy -= josias
+   println(bernnadetthy)
+   */
+    
+   // condições  if..else
+   
+   //se...senão
+   //
+   // estrutura:
+   // 
+   // if...else simples
+   // 
+   // if(condição){
+   // ação
+   // }else{
+   // ação
+   // }
+   /*
+   var interruptor = false 
+    
+   if(interruptor == true){
+       println("Luz acesa") 
+   }else{
+       println("Luz apagada")
+    
+   
+   }
+   
+    
+    var fome = true
+    
+    if(fome){
+        println("alimente-se")
+    }else{
+        println("alimentou-se")
+
+    }
+        
+   */ 
+    /*
+    var senha = "98486" 
+    
+    if (senha == "azeitona"){ 
+        println("bem vindo sr stark") 
+    }else{ 
+        println("senha incorreta, tente novamente")
+    
+    }
+    
+    // SOCORRAM ME SUBI NO ONIBUS EM MARROCOS 
+    
+    // if..else composto
+    // 
+    // com o if..else composto, somos permitidos, comparar mais de duas condições (o simples e o else), 
+    // através do 'else if' 
+    // 
+    
+    var coracoes = 1
+    if (coracoes >= 5){ 
+        println("você esta muito saudável! parabéns")
+    }else if (coracoes == 4){
+        println("você ta de boa")
+    }else if (coracoes == 3){
+        println("cuidado com a sua saúde, durma melhor")
+    }else if (coracoes == 2){
+        println("vá se tratar, voce nao está bem...")
+    }else if (coracoes == 1){ 
+        println("estado crítico!!!!")
+    }else{
+        println("novo reforço do vasco")
+    }
+    */
+    
+    
+    // 1 - faça um programa usando duas variaveis que representem cada uma,um número.
+    // ele(programa) deve verificar qual dos dois é o maior número e  imprimi-lo no console
+    
+    
+    // 2 - faça um programa que verifique se o valor de uma variável é 
+    //maior, igual, ou menor que 0 (positivo ou negativo, ou nenhum dos dois)
+    //
+    /*
+   var pudim = 2
+      if (pudim >= 3){
+          println("parabéns, voce ainda tem pudim")
+      }else if(pudim == 2){
+          println("você está ficando sem pudim") 
+          
+      }else{
+          print("você está sem pudim")
+      }
+      
+      var cogumelo = 0 
+      if (cogumelo <=0){ 
+          println("você está sem cogumelo") 
+      }else if( cogumelo >= 0){
+          println("você tem muuito cogumelo") 
+          
+}
+       
+  */
+    
+    // operadores lógicos
+    // && -> e -> se todos as condições forem verdadeiras, o resultado será verdadeiro
+    // || -> ou -> se pelo menos uma condição for verdadeira, o resultado será verdadeiro
+    // 
+    // tabela verdade
+    // 
+    // &&
+    // VVV -> V 
+    // VVF -> F 
+    // FFF -> F
+    // FVF -> F
+    // FVV -> F
+    // VFV -> F
+    // 
+    // ||
+    // VV -> V
+    // VF -> V
+    // FV -> V 
+    // FF ->
+     
+    
+    
+    // na prática opeadores lógicos
+    // 
+    // minha mãe pediu para eu ir na loja de talheres e ela falou:
+    // traga uma colher, se tiver garfo e faca
+    // 
+    
+    /*
+    var garfo = true 
+    var faca = false
+    
+    println(garfo && faca) 
+    
+     
+    // show so péricles 
+    // pro cidadão menor de 18 entrar, ele precisa ter pelo menos 12 anos E 
+    // estar acompanhado dos pais 
+    
+     var idade = 15 
+     var comPais = false 
+     var comIdentidade = true
+         
+    if (idade >= 18){  
+        
+        if((idade >= 12 &&  comIdentidade == true) || comPais == true){
+            println("apoveite o show.. jovem!!") 
+        }else{
+            println("tu não pode entrar!")  
+        }   
+    }else{
+        println("aproveite o show!!")
+    }
+    
+        
+    //exercício ->  no MetroidVania, para o Hero ir para a tela de GameOver, 
+    //seu (corações precisam ser igual a zero) e 
+    //suas vidas precisam ser menor ou igual a zero 
+    
+    // simule com operadores lógicos quando ele vai para o GameOver
+    // e quando ele não vai 
+    
+    
+    var coracoes = 1
+    var vidas = false
+    
+     if(coracoes <= 0 || vidas == false){ 
+         println("game over")
+     }else{ 
+         println("o jogo continua") 
+     } 
+     */
+      
+    // when - quando
+    // 
+    // comparação de quando um valor for igual a um determinado valor,
+    // uma determinada ação será executada 
+    // 
+    // var auxiliar = valor 
+    // 
+    // when(auxiliar){  
+    // valor -> {ação} 
+    // valor -> {ação} 
+    // valor -> {ação} 
+    // valor -> {ação} 
+    // valor -> {ação} 
+    // else -> {açaõ} 
+    // } 
+    // será usado geralmente quando duranteo programa o valor da variável
+    // não for estático, ou seja, ele estiver mudando
+    //
+     /*
+    var mes = 5  
+    
+    
+     when(mes){ 
+         1 -> {println("Lisboa")}
+         2 -> {println("São Paulo")} 
+         3 -> {println("Rio de Janeiro")} 
+         4 -> {println("Nova York")} 
+         5 -> {println("Barcelona")} 
+         6 -> {println("Elmore")} 
+         7 -> {println("Miwaukee")} 
+         8 -> {println("Seoul")} 
+         9 -> {println("Japão")} 
+         10 -> {println("Toronto")} 
+         11 -> {println("Los Polos Hermanos")} 
+         12 -> {println("Springfield")} 
+         else -> {println("acordou")}
+     
+     
+     
+     
+        //exercício -> escreva um programa em Kotlin que declare uma variável chamada 
+        //"diaSemana" do tipo String, que represente um dia de semana. Em seguida, utilize a declaração
+        //"when" para exibir uma mensagem na tela informando se o dia da semana é 
+        //um dia util ou um final de semana. 
+        //
+        //
+        
+         
+        
+        var diaSemana = ""
+    
+          when(diaSemana){ 
+              "segunda"-> {println("segunda")}
+              "terça"-> {println("terça")} 
+              "quarta"-> {println("quarta")} 
+              "quinta"-> {println("quinta")} 
+              "sexta"-> {println("sexta")} 
+             
+              else ->{println("final de semana, aproveite")}
+          
+              
+          }
+     
+     
+       // laços de repetição - Loops 
+       // 
+       // repeat - repita
+       // while - enquanto
+       // do..while - faça..enquanto
+       // for - para
+       // 
+       // repeat - repita
+       // vai repetir ma determinada ação uma determinada quantidade de vezes
+       //  
+       // estrutura do repeat
+       //   
+       // repeat(númeroVezes){ 
+       // ação
+       // }
+       // 
+       repeat(8){ 
+           println("isso é um teste, testando, testando")
+      
+       }
+       
+       
+       // exercício -> faça um programa com auxílio de uma variavel contador,
+       // na qual nela será acrescentado 1 a cada repetição,
+       // até que dê a quantidade de vezes decidida
+       
+       
+       var contador = 5 
+       var repetir = 0
+      	repeat(contador){
+           repetir++ 
+            println("Contador $repetir")
+        
+       
+        var contador = 0
+        repeat(10){
+            println(contador++)
+       
+       
+     */
+     
+     //laço while - enquanto 
+     //
+     //enquanto uma condiçãofor verdadeira, uma determinada ação estará sendo executada
+     //estrutura do while
+     //
+     //while(condição){
+     //ação
+     //}
+     /*
+     var contador = 0
+     while(contador < 10){
+         println(contador++)
+     } 
+     */
+     //exercício -> simulador de bateria de celular
+     //faça um programa com while que motre s bateria 100% diminuindo.
+     //quando ela chegar no 15, deve mostrar a mensagem pedindo para 
+     //conectar o carregador, e quando chegar a 0, deve mostrar a mensagem
+     //aparelho desligado
+          
+     /*     
+     var bateria = 100 
+    
+     while(bateria > 0){
+         println("$bateria%")
+          
+          
+          when(bateria){
+              15-> {println("aparelho descarregado, conecte no carregador")}
+              0 ->{println("aparelho desligando!")}
+     }
+       bateria--  
+          
+     }
+       */   
+      //uma determinada ação será executada, ENQUANTO uma determinada condição for 
+      //verdadeira 
+      
+      //estrutura:
+      //
+      //do{
+      //ação
+      //}while(condição) 
+      //
+      /*
+      var contador =9
+      
+      do{
+         println(contador++)
+      }while(contador > 10)
+       */ 
+      
+      //for - para...
+      //
+      //PARA cada item em um intervalo ou colection, uma determinada ação será executada 
+      //estrutura:
+      //
+      //for(vAuxiliar in intervalo ou colection)
+      //ação
+      //}
+      //
+      
+      for(pneu in 1..4){
+          println("1 pneu")
+      }
+      for(contador in 0..3){
+          println(contador + 1)
+         
+      }
+     
+     //exercício -> faça uma tabuada até o décimo multiplo de um número escolhido, 
+     //utilizando o laço for
+     //em excessão as tabuadas do 0, 1 e 2
+        
+        
+        
+}
+         
+         
+     
+     
+    
      } 
      
      //exercício -> simulador de bateria de celular
