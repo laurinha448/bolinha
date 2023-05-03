@@ -33,6 +33,8 @@ fun main() {
     var idade = 21
     var cidade = "Boston"
     
+  
+    
     println("Em um belo dia chuvoso,")
     
     
@@ -3805,9 +3807,33 @@ fun main() {
         
 }
  
+ /'''''''''''''''''''''''''''''''''''
  
  
- 
+ fun main() {
+    
+    // Poo
+    //
+    // programação Orientada a Objetos
+    //
+    // Objetivo: simular atividades e situaoções do mundo real
+    //
+    // Objeto - elementos que podem interagir com um sistema
+    //
+    // clsse - denominação de um determinado objeto
+    //
+    // atributos - caracteristicas, propiedades, parâmetros
+    //
+    // métodos - atividades, ações, que o objeto pode realizar
+    //
+    //
+    // herança - atributos de um obj que são herdados de uma classe
+
+    
+    
+    
+    
+}
  
  
  
