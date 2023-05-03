@@ -3835,9 +3835,53 @@ fun main() {
     
 }
  
+ /''''''''''''''''''''''''''''''''''''''''''
  
- 
- 
+ fun main() {
+    
+    
+
+
+    //exercício -> faça uma apresentação sua utilizando a classe pessoa() ja criada e utilizando pelo
+    //menos, todos os atributos que existem na classe
+        var pessoa1 = pessoa()
+    
+    pessoa1.nome = "laura"
+    pessoa1.idade = 15
+    pessoa1.altura = 1.65
+    pessoa1.peso = 51.63
+    pessoa1.pais = "Brasil"
+            
+    println(pessoa1.nome)
+    println(pessoa1.idade)
+    println(pessoa1.altura)
+    println(pessoa1.peso)
+    println(pessoa1.pais)
+    
+    
+    
+      
+} 
+
+    class pessoa { 
+        
+       //atributos que toda pessoa pode ter
+       var nome = "" 
+       var idade = 0
+       var altura = 0.0
+       var peso = 51.60 //valor inicial
+       var pais = ""
+        
+    }
+        
+        
+        
+        
+        
+        
+        
+        
+
  
  
  
