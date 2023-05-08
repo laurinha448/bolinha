@@ -3876,7 +3876,86 @@ fun main() {
         
         
         
-        
+/'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+fun main() {
+    
+    
+
+/*
+    //exercício -> faça uma apresentação sua utilizando a classe pessoa() ja criada e utilizando pelo
+    //menos, todos os atributos que existem na classe 
+        var pessoa1 = pessoa()
+    
+    pessoa1.nome = "laura"
+    pessoa1.idade = 15
+    pessoa1.altura = 1.65
+    pessoa1.peso = 51.63
+    pessoa1.pais = "Brasil"
+            
+    println(pessoa1.nome)
+    println(pessoa1.idade)
+    println(pessoa1.altura)
+    println(pessoa1.peso)
+    println(pessoa1.pais)
+    
+    println(" meu nome é $(pessoa1.nome), eu tenho $(pessoa1.idade) anos, tenho $(pessoa1.altura) de altura, peso &(pessoa1.peso) quilos e sou do &(pessoa1.pais)")
+    
+      
+ 
+*/
+
+    
+    
+    
+    
+  var pessoa2 = pessoa()  
+  var animal1 = animal("cachorro", "pinscher", 7, "chinelo", "grande")  
+   
+   //exercício -> faça o catálogo(fictício) de animais que estão morando no zoológico de SP 
+   //com no mínimo 20 animais, sem repetição de raça 
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+  class animal(var especie: String, //atributos que todo animal deve ter
+             var raca: String, 
+             var idade: String, 
+             var dieta: String,
+             var habitat:String )
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+    }
         
         
         
