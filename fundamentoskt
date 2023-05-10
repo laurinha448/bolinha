@@ -3959,7 +3959,122 @@ fun main() {
         
         
         
-        
+ /''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+ 
+ fun main() {
+    
+    
+
+/*
+    //exercício -> faça uma apresentação sua utilizando a classe pessoa() ja criada e utilizando pelo
+    //menos, todos os atributos que existem na classe 
+        var pessoa1 = pessoa()
+    
+    pessoa1.nome = "laura"
+    pessoa1.idade = 15
+    pessoa1.altura = 1.65
+    pessoa1.peso = 51.63
+    pessoa1.pais = "Brasil"
+            
+    println(pessoa1.nome)
+    println(pessoa1.idade)
+    println(pessoa1.altura)
+    println(pessoa1.peso)
+    println(pessoa1.pais)
+    
+    println(" meu nome é $(pessoa1.nome), eu tenho $(pessoa1.idade) anos, tenho $(pessoa1.altura) de altura, peso &(pessoa1.peso) quilos e sou do &(pessoa1.pais)")
+    
+      
+ 
+*/
+
+    
+    
+    
+    
+  var pessoa2 = pessoa()  
+  var animal1 = animal("cachorro", "pinscher", 7, "chinelo", "grande")  
+   
+   //exercício -> faça o catálogo(fictício) de animais que estão morando no zoológico de SP 
+   //com no mínimo 20 animais, sem repetição de raça 
+   
+   
+   var animal1 = animal("cachorro", "vira lata", 3, "ração", "casa")
+   var animal2 = anima1("girafa", "do sul", 6, "folhas", "savana")
+   var animal3 = anima1("lobo", "vermelho", 4, "carne", "cerrado") 
+   var animal4 = anima1("coelho", "rex", 1, "cenoura", "gaiola")
+   var animal5 = anima1("leao", "branco", 8, "carne", "selva")
+   var animal6 = anima1("baleia", "jubarte", 7, "sardinha", "mar")
+   var animal7 = anima1("largato", "calango-verde", 1, "rustáceos e carniça", "desertos secos")
+   var animal8 = animal("peixe", "salmao", 1, "algas ", "mar")
+   var animal9 = animal("passarinho", "calopsita", 5, "manga", "gaiola")
+   var animal10 = animal("tigre", "Siberiano", 9, "carne ", "Siberiano") 
+   var animal11 = animal("vaca", "Jersey", 3, "capim ", "fazenda")
+   var animal12 = animal("boi", "caracu", 7, "grama", "fazenda")
+   var animal13 = animal("elefante", "africano", 8, "bambu", "pantano")
+   var animal14 = animal("polvo", "mimico", 5, "lagostas", "mar")
+   var animal15 = animal("porco", "piau", 4, "verduras", "matagal")
+   var animal16 = animal("hipopotamo", "melancia", 2, " pigmeu", "libéria")
+   var animal17 = animal("pantera", "negra", 7, "lebres", "amazônia")
+   var animal18 = animal("gato", "siâmes", 3, "ração", "casa")
+   var animal19 = animal("cavalo", "bretão", 9, "maçã", "campo")
+   var animal20 = animal("capivara", "não tem", 4, "capim", "locais próximos à água")
+   
+   
+   
+   println(animal1.especie+ " " + animal1.raça+ " " + animal1.idade+ " " + animal1.dieta+ " " + animal1.habitat)
+   println(animal1.especie+ " " + animal1.raça+ " " + animal1.idade+ " " + animal1.dieta+ " " + animal1.habitat)
+   println(animal1.especie+ " " + animal1.raça+ " " + animal1.idade+ " " + animal1.dieta+ " " + animal1.habitat)
+   println(animal1.especie+ " " + animal1.raça+ " " + animal1.idade+ " " + animal1.dieta+ " " + animal1.habitat)
+   println(animal1.especie+ " " + animal1.raça+ " " + animal1.idade+ " " + animal1.dieta+ " " + animal1.habitat)
+   println(animal1.especie+ " " + animal1.raça+ " " + animal1.idade+ " " + animal1.dieta+ " " + animal1.habitat) 
+   println(animal1.especie+ " " + animal1.raça+ " " + animal1.idade+ " " + animal1.dieta+ " " + animal1.habitat) 
+   println(animal1.especie+ " " + animal1.raça+ " " + animal1.idade+ " " + animal1.dieta+ " " + animal1.habitat) 
+   println(animal1.especie+ " " + animal1.raça+ " " + animal1.idade+ " " + animal1.dieta+ " " + animal1.habitat)   
+   println(animal1.especie+ " " + animal1.raça+ " " + animal1.idade+ " " + animal1.dieta+ " " + animal1.habitat)     
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+}
+  class animal(var especie: String, //atributos que todo animal deve ter
+             var raca: String, 
+             var idade: String, 
+             var dieta: String,
+             var habitat:String )
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+    }
 
  
  
